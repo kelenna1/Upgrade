@@ -4,6 +4,8 @@ A simple FAQ Chatbot built with Django REST Framework and powered by OpenRouter 
 Users can ask questions via a REST API or through a minimal web interface, and the bot generates AI-powered answers.
 All questions & answers are stored in a PostgreSQL database.
 
+
+
 🚀 Features
 
 REST API endpoint for asking questions (/api/faq/).
@@ -16,6 +18,8 @@ Powered by OpenRouter (supports GPT, Claude, Mistral, LLaMA, etc).
 
 Docker-ready for deployment.
 
+
+
 🛠️ Tech Stack
 
 Backend: Django 4.2, Django REST Framework
@@ -27,6 +31,9 @@ AI Integration: OpenRouter API (chat/completions)
 Frontend: HTML + JavaScript (Django template)
 
 Deployment: Docker (Python 3.10 slim image)
+
+
+
 
 📂 Project Structure
 faq_chatbot/
@@ -42,6 +49,9 @@ faq_chatbot/
 ├── requirements.txt
 ├── Dockerfile
 └── .env
+
+
+
 
 ⚡ Setup & Installation
 1. Clone Repo
@@ -77,6 +87,9 @@ python manage.py migrate
 python manage.py runserver
 
 
+
+
+
 Visit:
 
 API → http://127.0.0.1:8000/api/faq/
@@ -97,12 +110,18 @@ Example Response
 }
 
 
+
+
+
 🐳 Run with Docker
 
 Build and run:
 
 docker build -t faq-chatbot .
 docker run -p 8000:8000 faq-chatbot
+
+
+
 
 📌 Roadmap
 
@@ -115,6 +134,9 @@ docker run -p 8000:8000 faq-chatbot
  Deploy on Render/Heroku.
 
  Add unit tests with pytest.
+
+
+
 
 📜 License
 
