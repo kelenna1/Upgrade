@@ -111,6 +111,7 @@ Example Response
 
 
 
+<img width="1881" height="940" alt="Screenshot 2025-09-20 230311" src="https://github.com/user-attachments/assets/026558f9-32d2-4d48-9fde-eb130f5efb83" />
 
 
 🐳 Run with Docker
